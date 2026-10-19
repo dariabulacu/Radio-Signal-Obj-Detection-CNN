@@ -1,0 +1,7 @@
+variant,val_accuracy,lr,optimizer,dropout_conv,dropout_dense,filters
+baseline,0.57419353723526,0.001,adam,,,
+higher_lr,0.32516127824783325,0.01,adam,,,
+lower_lr,0.259354829788208,0.0001,adam,,,
+sgd_momentum,0.28387096524238586,0.01,sgd,,,
+no_dropout,0.47096773982048035,0.001,adam,0.0,0.0,
+smaller_model,0.3384946286678314,0.001,adam,,,"(16, 32, 64)"
