@@ -1,2 +1,5 @@
 /Bulacu_Daria_241.zip
 /Report.txt
+# Large data files - excluded from git (too large for GitHub)
+feat/
+*.npy
